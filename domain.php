@@ -67,7 +67,7 @@ if (count($urls) == 0) {
 }
 
 // Create a new file for writing
-$fileName = "file_$dateToFilter.txt";
+$fileName = "domain_$dateToFilter.txt";
 $file = fopen($fileName, 'w');
 
 // Write each URL to the file
